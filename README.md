@@ -49,4 +49,8 @@ This application was created by Ivan Vakulenko. It utilizes the Edamam API for r
 
 ## License
 
+<<<<<<< HEAD
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
+=======
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
+>>>>>>> 6d2d1d21bd41e68706c069e344688e22a29816c2
