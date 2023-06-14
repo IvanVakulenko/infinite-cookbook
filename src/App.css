@@ -1,38 +1,195 @@
-.App {
+.search-form {
   text-align: center;
+  margin-bottom: 2rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.search-bar {
+ 
+  top: 0;
+  left: 0;
+  margin: 30px;
+  padding: 0.5rem;
+  width: 600px;
+  border: none;
+  border-bottom: 3px solid #ffe600;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.search-bar:focus {
+  outline: none;
+  border-color: #0288d1;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.search-button {
+  padding: 0.5rem 1rem;
+  background-color: #0288d1;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+
+.ToolBar {
+  background-color: #cac40e;
+  width: 100%;
+  
+}
+
+.soupUpBotton {
+  background-color: #42a5f5;
+}
+
+
+.root {
+  flex-grow: 1;
+  
+}
+.navRoot {
+  display: block;
+  align-items: center;
+  width: 100%;
+  background-color: #42a5f5;
+  
+  background-color: #43e91e;
+}
+.menuButton {
+  margin-right: 3em;
+}
+.title {
+  flex-grow: 1;
+  color: #42a5f5;
+  
+}
+
+.mainContent {
+  margin: 30px;
+}
+
+.mainTittle{
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  
+}
+
+.mainFeaturesPost {
+  position: relative;
+  color: white;
+  margin-bottom:  2em;
+  background-image: url(./img/homepage.jpg);
+  
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-position: center;
+  
+  
+  
+}
+.mainFeaturesPostContent{
+  position: relative;
+  padding: 12%; 
+  
+  
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color:rgba(0,0,0,0.3);
+}
+
+.cardMedia {
+  padding-top: 56.25%;
+  background-image: url(./img/homepage.jpg);
+  
+
+}
+.cardContent {
+  flex-grow: 1;
+}
+
+.cardContent {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
+  
+}
+
+.calories {
+  margin-top: auto;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+
+.cardGrid{
+  margin-top: 40px;
+  
+  
+}
+
+.card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+.cardMedia {
+  height: 0;
+  padding-top: 56.25%;
+  /* 16:9 aspect ratio */
+}
+
+.cardActions {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+
+
+.recipeList{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.cardGridRecipe{
+  display: flex;
+  flex-direction:row;
+ 
+  border-radius: 5px;
+  align-items: center;
+  margin: 40px;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: aliceblue;
+ font-size: 1.2em;
+}
+
+.cardGridRecipe img {
+  border-radius: 10px;
+  margin: 5px 5px 5px 5px;
+}
+
+.cardGridRecipe p, h5, li {
+  border-radius: 10px;
+  margin: 5px 5px 5px 5px;
+}
+
+.cardGridRecipe Button {
+  border-radius: 5px;
+  margin: 15px;
+  background-color: #0288d1;
+}
+
+.soupUpBotton {
+  background-color: #0288d1;
 }
